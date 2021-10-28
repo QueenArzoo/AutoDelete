@@ -8,7 +8,7 @@
         "telegram-bot",
         "ArunSince2005"
     ],
-    "repository": "https://github.com/Arun-TG/AutoDelete",
+    "repository": "https://github.com/QueenArzoo/AutoDelete",
     "website": "t.me/ArunSince2005",
     "success_url": "https://t.me/Arun_TG",
     "env": {
@@ -22,6 +22,11 @@
         },
         "SESSION": {
             "description": "Pyrogram Session String Of Telegram Account",
+            "value": "TOKEN"
+            "required": false
+        },
+        "TOKEN": {
+            "description": "ID Of Admins",
             "value": ""
         },
         "ADMINS": {
