@@ -2,6 +2,8 @@
 
 import pyrogram
 import asyncio
+import logging
+import os
 
 from asyncio import sleep as slp
 from pyrogram import Client, filters
