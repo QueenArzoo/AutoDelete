@@ -10,7 +10,7 @@ from info import API_HASH
 from info import ADMINS
 from info import TOKEN
 from info import TIME
-from info import BOT_USERNAME
+from info import BOT_USERNAME, UPDATES_CHANNEL 
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton, Chat, CallbackQuery
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 from pyrogram.errors.exceptions.bad_request_400 import UserNotParticipant, UsernameNotOccupied, ChatAdminRequired, PeerIdInvalid
