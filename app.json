@@ -22,8 +22,7 @@
         },
         "SESSION": {
             "description": "Pyrogram Session String Of Telegram Account",
-            "value": "TOKEN"
-            "required": false
+            "value": ""
         },
         "TOKEN": {
             "description": "ID Of Admins",
