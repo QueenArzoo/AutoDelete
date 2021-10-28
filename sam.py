@@ -29,7 +29,7 @@ Sam = Client(
 
 #=======================================================================
 
-@Sam.on_message(filters.group & filters.all)
+@Sam.on_message(filters.channel & filters.all)
 async def deleter(bot: Client, cmd: Message):
                   await slp(int(TIME))
                   await cmd.delete()
