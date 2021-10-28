@@ -1,10 +1,19 @@
 # Auto-Delete
+
+The easiest way to deploy this Bot
+<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/QueenArzoo/AutoDelete"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
+
+
+```
+Please fork this repository don't import code
+Made with Python3
+(C) @QueenArzoo
+
+```
+
 Simple Telegram UserBot To Delete Group Messages After Specific Time.
 Based on Pyrogram
 
-## Deploy on Heroku
- [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
-- DON'T FORGET TO TURN ON DYNOS IN HEROKU
 
 ## Deploy in your VPS
 
