@@ -75,7 +75,7 @@ def _start(client, message):
         )
             return
     client.send_message(message.chat.id,
-        text="**👋🏻 Hey [{}](tg://user?id={})**\n__This bot can protect your channel and lock and open media**\n__Add the bot admin in your channel directly**".format(message.from_user.first_name, message.from_user.id),
+        text="**👋🏻 Hey [{}](tg://user?id={})**\n__This bot can protect your channel and lock and open media** \n__Add the bot admin in your channel directly**".format(message.from_user.first_name, message.from_user.id),
 	reply_markup=InlineKeyboardMarkup(
             [
 		[
