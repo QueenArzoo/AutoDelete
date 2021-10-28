@@ -11,7 +11,6 @@ from pyrogram.types import User, Message
 
 from info import API_ID
 from info import API_HASH
-from info import SESSION
 from info import ADMINS
 from info import TOKEN
 from info import TIME
@@ -30,7 +29,7 @@ Sam = Client(
 
 #=======================================================================
 
-@Sam.on_message(filters.group & filters.chat & filters.all)
+@Sam.on_message(filters.group & filters.all)
 async def deleter(bot: Client, cmd: Message):
          if cmd.from_user.id not in ADMINS:
                   await slp(int(TIME))
