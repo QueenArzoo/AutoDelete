@@ -11,14 +11,19 @@ from info import API_ID
 from info import API_HASH
 from info import SESSION
 from info import ADMINS
+from info import TOKEN
 from info import TIME
 from info import GROUPS
 #=======================================================================
 
+logging.basicConfig(level=logging.INFO)
+
+
 Sam = Client(
-    session_name= SESSION,
-    api_id= API_ID,
-    api_hash= API_HASH
+   "Sam",
+   bot_token=TOKEN,
+   api_id=API_ID,
+   api_hash=API_HASH
 )
 
 #=======================================================================
