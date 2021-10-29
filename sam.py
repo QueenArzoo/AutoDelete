@@ -97,7 +97,14 @@ def _start(client, message):
 async def deleter(bot: Client, cmd: Message):
                   await slp(int(TIME))
                   await cmd.delete()
-         
+			
+			
+			
+ 
+@Sam.on_message(filters.group & filters.all)
+async def deleter(bot: Client, cmd: Message):
+                  await slp(int(TIME))
+                  await cmd.delete()
 
 #=======================================================================
 
