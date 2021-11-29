@@ -37,7 +37,7 @@ def _start(client, message):
             if user.status == "kicked":
                client.send_message(
                    chat_id=message.chat.id,
-                   text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/AwesomeSupportt).",
+                   text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/DarkXForce).",
                    parse_mode="markdown",
                    disable_web_page_preview=True
                )
@@ -49,7 +49,7 @@ def _start(client, message):
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("Join Updates Channel", url=f"https://t.me/{update_channel}")
+                            InlineKeyboardButton("Join Updates Channel", url=f"https://t.me/DarkXForce")
                         ]
                     ]
                 ),
@@ -62,11 +62,11 @@ def _start(client, message):
 	        reply_markup=InlineKeyboardMarkup(
                     [
                         [   
-                           InlineKeyboardButton("Updates Channel", url="https://t.me/LaylaList"),
-                           InlineKeyboardButton("Support Group", url="https://t.me/AwesomeSupport")
+                           InlineKeyboardButton("Updates Channel", url="https://t.me/DarkXForce"),
+                           InlineKeyboardButton("Support Group", url="https://t.me/DarkXForce")
                       ],
                      [
-                           InlineKeyboardButton("🧑‍💻Devloper🧑‍💻", url="https://t.me/HEROGAMERS1")
+                           InlineKeyboardButton("🧑‍💻Devloper🧑‍💻", url="https://t.me/DarkXForce")
                      ]
                  ]
              ),
@@ -79,11 +79,11 @@ def _start(client, message):
 	reply_markup=InlineKeyboardMarkup(
             [
 		[
-                    InlineKeyboardButton("Updates Channel", url="https://t.me/LaylaList"),
-                    InlineKeyboardButton("Support Group", url="https://t.me/AwesomeSupport")
+                    InlineKeyboardButton("Updates Channel", url="https://t.me/DarkXForce"),
+                    InlineKeyboardButton("Support Group", url="https://t.me/DarkXForce")
                 ],
                 [
-                    InlineKeyboardButton("🧑‍💻Devloper🧑‍💻", url="https://t.me/HEROGAMERS1")	
+                    InlineKeyboardButton("🧑‍💻Devloper🧑‍💻", url="https://t.me/DarkXForce")	
                 ]
             ]
         ),
