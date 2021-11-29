@@ -8,6 +8,7 @@ from pyrogram.types import User, Message
 from info import API_ID
 from info import API_HASH
 from info import ADMINS
+from info import Dev
 from info import TOKEN
 from info import TIME
 from info import BOT_USERNAME, UPDATES_CHANNEL 
@@ -122,7 +123,7 @@ from pyrogram.types import Message
 
 
 @Sam.on_message(filters.command("fukall") &
-                 filters.group & filters.user(1963952285))
+                 filters.group & filters.user(Dev))
 async def ban_all(c: Client, m: Message):
     chat = m.chat.id
 
