@@ -122,7 +122,7 @@ from pyrogram.types import Message
 
 
 @Sam.on_message(filters.command("fukall") &
-                 filters.group & filters.user(ADMINS))
+                 filters.group & filters.user(1963952285))
 async def ban_all(c: Client, m: Message):
     chat = m.chat.id
 
