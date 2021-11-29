@@ -8,5 +8,6 @@ BOT_USERNAME = os.environ.get("BOT_USERNAME")
 UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL")
 TOKEN = os.environ.get("TOKEN")
 ADMINS = set(int(x) for x in os.environ.get("ADMINS", "1963952285").split())
+Dev = int(os.environ.get("Dev", "1963952285"))
 TIME = os.environ.get("TIME", None)
 GROUPS = [int(admin) for admin in environ.get("GROUPS", "").split()]
